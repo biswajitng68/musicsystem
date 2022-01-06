@@ -1,0 +1,10 @@
+.row{
+    display: flex; 
+    justify-content: space-between;
+}
+.drum{
+    background-color: blueviolet; 
+    height: 100px; 
+    width: 100px;
+    margin: 20px;
+}
