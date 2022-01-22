@@ -12,4 +12,11 @@
 }
 body{
     background-image: repeating-linear-gradient(rgb(134, 101, 101),rgb(41, 41, 80),rgb(156, 216, 156),yellow,white,gray);
+    margin: 0;
+    padding: 0;
+}
+footer{
+    background-color: aqua;
+    text-align: center;
+
 }

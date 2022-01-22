@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drummusic</title>
+    <script type="text/javascript">
+        function redir(){
+            window.location="https://biswajitng68.github.io/musicsystem/";
+        }
+        window.addEventListener("load",bagm);
+        function bagm() {
+            var bg=document.getElementById("d");
+            bg.play();
+           setTimeout('redir()', 10000);
+        }
+    </script>
+</head>
+<body>
+<div style="display: flex; justify-content: space-around; position: relative; top: 100px;">
+    <img src="drum.jpg" alt="drumspic" height="250" width="250">
+    </div>
+        <audio src="sounds/bgm.mp3" id="d" ></audio>
+   <div style="display: flex; justify-content: space-around; position: relative; top: 150px;">
+   <button style="width: 70; height: 70;
+    background-image: linear-gradient(rgb(221, 98, 211), rgb(78, 20, 238),yellow); color: cornsilk; 
+    box-shadow: inset 0 -.7em .5em rgba(0, 0, 0, 0.3); border-radius: 1.2em; font-size: 1.3em;" onclick="bagm()">
+    lets play</button>
+     </div>   
+</body>
+</html>

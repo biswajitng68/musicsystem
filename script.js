@@ -15,7 +15,7 @@ const sound14=document.getElementById("d14");
 const sound15=document.getElementById("d15");
 const sound16=document.getElementById("d16");
 const sound17=document.getElementById("d17");
-
+alert("Beat the drums and fill the music!!!!!");
 
 function effect1() {
     sound1.currentTime=0;
